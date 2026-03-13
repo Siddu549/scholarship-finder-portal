@@ -1,16 +1,82 @@
-# React + Vite
+# Scholarship Finder Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that helps students easily find scholarships based on eligibility criteria.
 
-Currently, two official plugins are available:
+## Problem Statement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Students often struggle to find scholarships that match their eligibility. This platform provides a searchable database of scholarships with filtering options.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Scholarship listing with eligibility details
+* Search scholarships by title
+* Filter by category
+* Income eligibility filtering
+* Bookmark scholarships
+* Deadline countdown
+* Pagination for large datasets
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend
+
+* React (Vite)
+* TailwindCSS
+* Axios
+
+Backend
+
+* Node.js
+* Express.js
+
+Database
+
+* MongoDB Atlas
+
+## Project Structure
+
+```
+scholarship-finder-portal
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └── server.js
+│
+├── frontend
+│   ├── components
+│   ├── pages
+│   └── services
+│
+└── README.md
+```
+
+## How to Run Locally
+
+### Backend
+
+```
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+## Future Improvements
+
+* AI-based scholarship recommendation
+* Email notification reminders
+* Scholarship application tracking
+* Mobile responsive UI improvements
+
+## Author
+
+Siddu549
